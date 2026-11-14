@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "andrey-lozov-portfolio",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-14",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "andrey-lozov-demo-orders",
+      "database_id": "84f8e5e9-01d2-4e62-9ce0-9dfcada8e051",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

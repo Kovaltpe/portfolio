@@ -1,0 +1,81 @@
+{
+  "paw-pantry": {
+    "id": "paw-pantry",
+    "brand": "Paw & Pantry",
+    "eyebrow": "FICTIONAL PET-NUTRITION SHOP",
+    "headline": "Good food for the good days.",
+    "intro": "A concept storefront for happy, healthy dogs. Choose a recipe and pack size to see the shopping flow in action.",
+    "accent": "sage",
+    "categories": ["All", "Dry food", "Wet food", "Treats", "Care"],
+    "products": [
+      {
+        "id": "trail-mix",
+        "name": "Trail Mix",
+        "category": "Dry food",
+        "description": "A hearty everyday recipe with chicken, pumpkin and oats.",
+        "art": "bag-sage",
+        "variants": [
+          { "id": "1kg", "label": "1 kg · trial", "price": 1290 },
+          { "id": "3kg", "label": "3 kg · regular", "price": 2990 },
+          { "id": "8kg", "label": "8 kg · family", "price": 6490 }
+        ]
+      },
+      {
+        "id": "coastline",
+        "name": "Coastline Catch",
+        "category": "Dry food",
+        "description": "A fish-forward recipe with sweet potato and sea greens.",
+        "art": "bag-blue",
+        "variants": [
+          { "id": "1kg", "label": "1 kg · trial", "price": 1390 },
+          { "id": "3kg", "label": "3 kg · regular", "price": 3190 },
+          { "id": "8kg", "label": "8 kg · family", "price": 6890 }
+        ]
+      },
+      {
+        "id": "garden-bowl",
+        "name": "Garden Bowl",
+        "category": "Wet food",
+        "description": "Slow-cooked turkey with carrots and a little rosemary.",
+        "art": "tin-terracotta",
+        "variants": [
+          { "id": "single", "label": "Single 400 g tin", "price": 390 },
+          { "id": "six-pack", "label": "6-pack · save 8%", "price": 2150 }
+        ]
+      },
+      {
+        "id": "beach-bites",
+        "name": "Beach Bites",
+        "category": "Treats",
+        "description": "Crunchy salmon training bites for little wins.",
+        "art": "pouch-yellow",
+        "variants": [
+          { "id": "150g", "label": "150 g pouch", "price": 650 },
+          { "id": "300g", "label": "300 g pouch", "price": 1090 }
+        ]
+      },
+      {
+        "id": "calm-chews",
+        "name": "Calm Chews",
+        "category": "Care",
+        "description": "A fictional daily chew made for slow, relaxed evenings.",
+        "art": "pouch-lilac",
+        "variants": [
+          { "id": "30-count", "label": "30 chews", "price": 1590 },
+          { "id": "60-count", "label": "60 chews", "price": 2790 }
+        ]
+      },
+      {
+        "id": "picnic-pate",
+        "name": "Sunday Picnic",
+        "category": "Wet food",
+        "description": "A smooth beef and apple pâté for a special bowl.",
+        "art": "tin-yellow",
+        "variants": [
+          { "id": "single", "label": "Single 400 g tin", "price": 420 },
+          { "id": "six-pack", "label": "6-pack", "price": 2290 }
+        ]
+      }
+    ]
+  }
+}
